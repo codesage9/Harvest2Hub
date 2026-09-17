@@ -1,5 +1,5 @@
 {
-  "app_name": "Harvest2Hub",
+  "app_name": "Krishi-Setu",
   "app_tagline": "Smart Agriculture Procurement & Slot Scheduling Platform",
   "sih_badge": "Smart India Hackathon • PS 26032",
   "nav": {
@@ -18,13 +18,13 @@
     "register": "Register",
     "logout": "Logout",
     "farmer_role": "Farmer",
-    "gov_role": "Gov Official",
+    "gov_role": "Institution Official",
     "admin_role": "Administrator"
   },
   "dashboard": {
     "welcome_back": "Welcome back",
     "farmer_subtitle": "Here is an overview of your scheduled procurement slots, deliveries, and payment status.",
-    "gov_subtitle": "Real-time hub operations, grain intake monitoring, and MSP disbursements.",
+    "gov_subtitle": "Real-time institution operations, grain intake monitoring, and MSP disbursements.",
     "active_slots": "Active Bookings",
     "total_disbursed": "Total Disbursed",
     "total_earnings": "Total Earnings",
@@ -40,7 +40,7 @@
   },
   "booking": {
     "title": "Schedule a Procurement Slot",
-    "subtitle": "Select your nearest government APMC hub, preferred date, and crop quantity for hassle-free zero-wait entry.",
+    "subtitle": "Select your nearest institution APMC hub, preferred date, and crop quantity for hassle-free zero-wait entry.",
     "select_hub": "Select Procurement Hub",
     "crop_name": "Crop Name",
     "variety": "Crop Variety",
@@ -133,7 +133,7 @@
     "save_changes": "Save Profile Changes"
   },
   "gov": {
-    "orders_title": "Government Procurement Operations",
+    "orders_title": "Institution Procurement Operations",
     "orders_subtitle": "Review farmer slot applications, execute quality verification, record weighbridge metrics, and disburse MSP payments.",
     "advance_modal_title": "Advance Order Processing Stage",
     "step_queue": "Move to Queue",

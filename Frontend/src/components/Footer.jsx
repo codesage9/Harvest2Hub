@@ -61,10 +61,10 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Col 3: Government & Compliance */}
+          {/* Col 3: Institutional & Compliance */}
           <div>
             <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4 font-['Manrope',sans-serif]">
-              Institution & Governance
+              Institution & Compliance
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
@@ -110,9 +110,9 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-400 gap-4">
-          <p>© 2026 Harvest2Hub Portal. Ministry of Agriculture & Farmers Welfare, Government of India.</p>
+          <p>© 2026 Krishi-Setu Portal. Ministry of Agriculture & Farmers Welfare, Government of India.</p>
           <div className="flex items-center gap-4 text-xs">
-            <span className="text-stone-400">SIH Team Harvest2Hub</span>
+            <span className="text-stone-400">SIH Team Krishi-Setu</span>
             <span>•</span>
             <span className="text-emerald-400 font-medium">Problem Statement #26032</span>
           </div>

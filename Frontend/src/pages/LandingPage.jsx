@@ -171,7 +171,7 @@ export const LandingPage = () => {
             End-to-End Pipeline
           </span>
           <h2 className="text-3xl font-extrabold text-[#1B4D3E] font-['Manrope',sans-serif] mt-3">
-            How Harvest2Hub Solves Problem Statement 26032
+            How Krishi-Setu Solves Problem Statement 26032
           </h2>
           <p className="text-stone-600 text-sm mt-3 leading-relaxed">
             Every step is digitized and connected via tamper-proof audit trails, ensuring fair prices for farmers and automated logistics for government food corporations.
@@ -306,7 +306,7 @@ export const LandingPage = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-stone-500 text-xs sm:text-sm mt-2">
-            Everything you need to know about the Harvest2Hub slot scheduling and procurement workflow.
+            Everything you need to know about the Krishi-Setu slot scheduling and procurement workflow.
           </p>
         </div>
 

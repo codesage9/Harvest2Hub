@@ -1,4 +1,4 @@
-# 🌱 Harvest2Hub — Smart Agriculture Procurement & Slot Scheduling Platform
+# 🌱 Krishi-Setu — Smart Agriculture Procurement & Slot Scheduling Platform
 > **Smart India Hackathon (SIH) • Problem Statement ID: 26032**  
 > *Theme: Agriculture, FoodTech & Rural Development*  
 > *Organization / Ministry: Ministry of Agriculture & Farmers Welfare / Food Corporation of India (FCI)*
@@ -14,8 +14,8 @@ During national crop harvesting seasons, Indian agricultural mandis and procurem
 
 ---
 
-## 💡 Harvest2Hub Solution Architecture
-**Harvest2Hub** is an end-to-end full-stack digital procurement and slot scheduling engine that transforms traditional mandi operations into a streamlined, automated, and tamper-proof workflow:
+## 💡 Krishi-Setu Solution Architecture
+**Krishi-Setu** is an end-to-end full-stack digital procurement and slot scheduling engine that transforms traditional mandi operations into a streamlined, automated, and tamper-proof workflow:
 
 1. **Intelligent Capacity-Aware Slot Scheduling**:
    - Farmers select their nearest APMC hub, crop variety, quantity, and time window.

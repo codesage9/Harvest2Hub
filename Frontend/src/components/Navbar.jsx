@@ -85,7 +85,7 @@ export const Navbar = () => {
               user?.role === 'government' ? 'bg-blue-600 text-white' : 'bg-stone-800 text-stone-300 hover:bg-stone-700'
             }`}
           >
-            🏛️ Gov Officer
+            🏛️ Institution
           </button>
           <Link
             to="/ledger"
@@ -107,13 +107,9 @@ export const Navbar = () => {
             <div>
               <div className="flex items-center gap-1.5">
                 <span className="font-extrabold text-xl tracking-tight text-[#1B4D3E] font-['Manrope',sans-serif]">
-                  Harvest<span className="text-emerald-600">2</span>Hub
-                </span>
-                <span className="text-[10px] uppercase font-bold px-1.5 py-0.5 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded">
-                  Gov Portal
+                  Krishi-Setu
                 </span>
               </div>
-              <p className="text-[11px] text-stone-500 hidden md:block">Farm-to-Hub Slot & Settlement Engine</p>
             </div>
           </Link>
 

@@ -328,7 +328,7 @@ export const Profile = () => {
             Preferred Regional Language
           </h3>
           <p className="text-xs text-stone-500">
-            Select your language. Harvest2Hub will persist this preference in your profile.
+            Select your language. Krishi-Setu will persist this preference in your profile.
           </p>
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-2">

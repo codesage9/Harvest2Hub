@@ -152,7 +152,7 @@ export const RegisterPage = () => {
             }`}
           >
             <Building2 className="w-4 h-4" />
-            Government / APMC Hub
+            Institution / APMC Hub
           </button>
         </div>
 
@@ -289,7 +289,7 @@ export const RegisterPage = () => {
             <div className="p-4 bg-blue-50/70 border border-blue-200 rounded-2xl space-y-3">
               <h4 className="text-xs font-bold uppercase tracking-wider text-blue-900 flex items-center gap-1.5">
                 <Building2 className="w-3.5 h-3.5 text-blue-700" />
-                Government Institution & Procurement Department
+                Institution & Procurement Department
               </h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
                 <div>

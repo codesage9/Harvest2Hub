@@ -37,7 +37,7 @@ app.use('/api/analytics', analyticsRoutes);
 app.get('/api/health', (req, res) => {
   res.json({
     status: 'healthy',
-    platform: 'Harvest2Hub',
+    platform: 'Krishi-Setu',
     problemStatement: 'SIH 26032',
     timestamp: new Date().toISOString(),
     databaseState: mongoose.connection.readyState === 1 ? 'connected' : 'connecting'
@@ -46,7 +46,7 @@ app.get('/api/health', (req, res) => {
 
 // Root welcome
 app.get('/', (req, res) => {
-  res.send('Harvest2Hub API Backend is running! (SIH Problem Statement 26032)');
+  res.send('Krishi-Setu API Backend is running! (SIH Problem Statement 26032)');
 });
 
 // Database Connection and Server Boot
@@ -58,7 +58,7 @@ async function startServer() {
 
     app.listen(PORT, () => {
       console.log(`====================================================`);
-      console.log(` Harvest2Hub Backend running on http://localhost:${PORT}`);
+      console.log(` Krishi-Setu Backend running on http://localhost:${PORT}`);
       console.log(` Problem Statement: SIH 26032`);
       console.log(`====================================================`);
     });
@@ -66,7 +66,7 @@ async function startServer() {
     console.error('Failed to connect to MongoDB:', err.message);
     // Still start Express server so health check & mock can run if needed
     app.listen(PORT, () => {
-      console.log(`Harvest2Hub Server running on http://localhost:${PORT} (DB Connection Pending)`);
+      console.log(`Krishi-Setu Server running on http://localhost:${PORT} (DB Connection Pending)`);
     });
   }
 }

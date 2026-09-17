@@ -83,7 +83,7 @@ export const LoginPage = () => {
               onClick={() => fillDemo('government')}
               className="py-1.5 px-2 bg-white rounded-lg border border-blue-300 text-blue-800 text-[11px] font-bold hover:bg-blue-100 transition shadow-sm"
             >
-              🏛️ Gov Officer
+              🏛️ Institution
             </button>
             <button
               type="button"

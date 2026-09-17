@@ -196,7 +196,7 @@ export const Community = () => {
                         <span className="font-bold text-sm text-stone-900">{post.authorName}</span>
                         {isGov ? (
                           <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-blue-100 text-blue-800 flex items-center gap-0.5">
-                            <ShieldCheck className="w-3 h-3" /> Mandi / Gov Officer
+                            <ShieldCheck className="w-3 h-3" /> Mandi / Institution
                           </span>
                         ) : (
                           <span className="text-[10px] font-semibold px-2 py-0.5 rounded bg-emerald-50 text-emerald-800">
